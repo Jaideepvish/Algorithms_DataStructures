@@ -10,6 +10,10 @@
   * Input: arr = [10,2,5,3]
   * Output: true
   * Explanation: N = 10 is the double of M = 5,that is, 10 = 2 * 5.
+  * 
+  * Additional test Cases :
+  * Input: arr = [7,1,14,11] => true
+  * Input: arr = [3,1,7,11] => false
   */
 var checkIfExist = function(arr) {
 	arr = [ 10, 2, 8, 3 ];
